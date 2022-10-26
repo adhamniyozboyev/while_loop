@@ -13,5 +13,5 @@ while(i<a){
 return a;
 }
 void main() {
- print(func(10));
+ print(func(7));
 }
