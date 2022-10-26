@@ -4,14 +4,17 @@
 */
 
 int func(int a){
-int i =0;
-while(i<a){
-  i++;
-  
-     print(i++);
+
+  int i=1;
+  while(i<=a){   
+    print(i);
+    i=i+1;
+    a%2==1;
+    i=i+1;
+  }
+  return a;
 }
-return a;
-}
+
 void main() {
- print(func(7));
+print(func(10));
 }
