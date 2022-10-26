@@ -2,20 +2,18 @@
   Create function func with "a " argument
   Return the sum of even numbers up to "a".
 */
-int func(a){
-  int b = 0;
-  int d = 0;
-  while (b < a){
-  
-    b = b + 1;
-    if (b % 2 == 1){
-      d+=b;
-
-    }    
+int func(int a) {
+  int i = 0;
+  int x = 0;
+  while (i < a) {
+    i = i + 1;
+    if (i % 2 == 0) {
+      x = x + i;
+    }
   }
-  return d;
-}
-void main() {
-  print(func(12));
+  return x;
 }
 
+void main() {
+  print(func(7));
+}
